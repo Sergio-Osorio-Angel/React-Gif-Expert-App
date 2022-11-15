@@ -19,7 +19,6 @@ export function GifExpertApp() {
     return (
         <>
             <h1>GifExpertApp</h1>
-
             {/* <AddCategory onNewCategory={(value)=>{onAddCategory(value)}}></AddCategory> */}
             {/* Si un el paramentro del callback se le pasa a la función a llamar */}
             {/* Se puede directamente llamar la función y esta recibirá el mismo parametro */}
@@ -30,10 +29,6 @@ export function GifExpertApp() {
                     <GifGrid key={category} category={category}></GifGrid>
                 )) }
             </ol>
-
-
-            
-
         </>
     )
 }

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem.jsx match con Snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Demon Slayer"
+      src="https://imagenes/test.jpg"
+    />
+    <p>
+      Demon Slayer
+    </p>
+  </div>
+</div>
+`;
